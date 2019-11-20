@@ -26,4 +26,4 @@ yellow_bold="\[\e[1;33m\]"
 # '\W' adds the name of the current directory
 # export PS1="$purple\u$blue@\h$green\$(__git_ps1)$cyan \W $ $reset"
 export PS1="\n$grey\t $blue\u $green\h $red\$(__git_ps1) $purple\w \n$green→$reset "
-export LS_COLORS="$LS_COLORS:'ex=0;35:"
+LS_COLORS=$LS_COLORS:'ex=0;35:' ; export LS_COLORS
